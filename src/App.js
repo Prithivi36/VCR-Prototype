@@ -1,16 +1,16 @@
 import './App.css';
 import Content from './Content';
-import {Routes ,BrowserRouter,Route} from 'react-router-dom'
+import {Routes ,HashRouter,Route} from 'react-router-dom'
 import Test from './Test';
 
 function App() {
   return (
-    <BrowserRouter basename='/GitReactRouterTest'  >
+    <HashRouter basename='/GitReactRouterTest'  >
       <Routes>
         <Route path='/' element={<Content />} />
         <Route path='/GitReactRouterTest/hi' element={<Test />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
