@@ -1,4 +1,4 @@
-import Home from "./Pages/Home/Home"
+import Home from "./Pages/Home/Home.jsx"
 import {Routes ,HashRouter,Route} from 'react-router-dom'
 import Login from "./Pages/Login/LoginPage.jsx"
 import Teachers from "./Pages/Teachers/TeachersPage.jsx"
