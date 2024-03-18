@@ -5,9 +5,9 @@ import Test from './Test';
 
 function App() {
   return (
-    <BrowserRouter basename='/GitReactRouterTest' >
+    <BrowserRouter  >
       <Routes>
-        <Route path='/hi' element={<Content />} />
+        <Route path='/GitReactRouterTest/hi' element={<Content />} />
         <Route path='/' element={<Test />} />
       </Routes>
     </BrowserRouter>
