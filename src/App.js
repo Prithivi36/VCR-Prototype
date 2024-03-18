@@ -7,8 +7,8 @@ function App() {
   return (
     <BrowserRouter basename='/GitReactRouterTest' >
       <Routes>
-        <Route path='*' element={<Content />} />
-        <Route path='/hi' element={<Test />} />
+        <Route path='/hi' element={<Content />} />
+        <Route path='*' element={<Test />} />
       </Routes>
     </BrowserRouter>
   );
