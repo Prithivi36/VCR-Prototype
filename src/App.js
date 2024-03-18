@@ -8,10 +8,10 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/GitReactRouterTest">
         <Routes>
-            <Route path='/student/:id' element={<Home />} />
             <Route path='/' element={<Login />} />
+            <Route path='/student/:id' element={<Home />} />
             <Route path='/login/:role' element={<Login />} />
             <Route path='/teacher/:id' element={<Teachers />} />
             <Route path={'/classroom'} element={<Classroom />} />
