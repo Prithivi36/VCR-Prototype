@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter basename="/GitReactRouterTest">
+      <BrowserRouter basename="/VCR-Prototype">
         <Routes>
             <Route path='/' element={<Login />} />
             <Route path='/student/:id' element={<Home />} />
