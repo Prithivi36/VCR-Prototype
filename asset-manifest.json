@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/GitReactRouterTest/static/css/main.544aa03b.css",
-    "main.js": "/GitReactRouterTest/static/js/main.97670a3d.js",
-    "static/js/453.527c7747.chunk.js": "/GitReactRouterTest/static/js/453.527c7747.chunk.js",
-    "static/media/Profile.png": "/GitReactRouterTest/static/media/Profile.4322ff3e5ecc2da96525.png",
-    "static/media/Pdf.webp": "/GitReactRouterTest/static/media/Pdf.7471aed97f7021046228.webp",
-    "static/media/Folder.webp": "/GitReactRouterTest/static/media/Folder.167f43fb0e53775ddc7d.webp",
-    "index.html": "/GitReactRouterTest/index.html",
-    "main.544aa03b.css.map": "/GitReactRouterTest/static/css/main.544aa03b.css.map",
-    "main.97670a3d.js.map": "/GitReactRouterTest/static/js/main.97670a3d.js.map",
-    "453.527c7747.chunk.js.map": "/GitReactRouterTest/static/js/453.527c7747.chunk.js.map"
+    "main.css": "/VCR-Prototype/static/css/main.544aa03b.css",
+    "main.js": "/VCR-Prototype/static/js/main.9067a72d.js",
+    "static/js/453.527c7747.chunk.js": "/VCR-Prototype/static/js/453.527c7747.chunk.js",
+    "static/media/Profile.png": "/VCR-Prototype/static/media/Profile.4322ff3e5ecc2da96525.png",
+    "static/media/Pdf.webp": "/VCR-Prototype/static/media/Pdf.7471aed97f7021046228.webp",
+    "static/media/Folder.webp": "/VCR-Prototype/static/media/Folder.167f43fb0e53775ddc7d.webp",
+    "index.html": "/VCR-Prototype/index.html",
+    "main.544aa03b.css.map": "/VCR-Prototype/static/css/main.544aa03b.css.map",
+    "main.9067a72d.js.map": "/VCR-Prototype/static/js/main.9067a72d.js.map",
+    "453.527c7747.chunk.js.map": "/VCR-Prototype/static/js/453.527c7747.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.544aa03b.css",
-    "static/js/main.97670a3d.js"
+    "static/js/main.9067a72d.js"
   ]
 }
