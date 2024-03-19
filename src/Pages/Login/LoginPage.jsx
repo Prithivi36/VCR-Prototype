@@ -1,3 +1,4 @@
+import axios from 'axios'
 import React from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 
@@ -5,6 +6,7 @@ function Login() {
   const [thisWidth,setWidth]=React.useState(window.innerWidth)
   const {role}=useParams()
   const [nav,setnav]=React.useState(false)
+  const [dat,setDat]=React.useState('')
 
   React.useEffect(
     
@@ -15,6 +17,12 @@ function Login() {
  function toggleNav(){
   setnav(!nav)
  }
+ React.useEffect(
+  ()=>{
+    axios.get('http://192.168.1.2:8080/student/get/710722243036').then(res=>setDat(res.data.studentName))
+
+  },[]
+ )
 
  const navigator=useNavigate()
 
@@ -26,7 +34,7 @@ function Login() {
     {nav?<div className=" d-flex text-dark">
         <div onClick={()=>navigator('/login/teachers')} className=" ms-3 d-flex flex-column justify-content-center align-items-center">
           <i className="bi bi-people-fill"></i>
-          <p>Faculty</p>
+          <p>{dat}</p>
         </div>
         <div  onClick={()=>navigator('/classroom')}  className=" ms-3 d-flex flex-column justify-content-center align-items-center">
         <i class="bi bi-hospital-fill"></i>
