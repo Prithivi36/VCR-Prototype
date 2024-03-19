@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter basename="/VCR-Prototype">
+      <BrowserRouter>
         <Routes>
             <Route path='/' element={<Login />} />
             <Route path='/student/:id' element={<Home />} />
